@@ -16,7 +16,6 @@ html, body {
 
 /* global */
 .container {
-  background-color: red;
   max-width: 960px;
   margin: 0 auto;
   height: auto;
@@ -30,10 +29,10 @@ html, body {
   height: auto;
   display: flex;
   justify-content: space-around;
+  min-width: 360px;
+  padding: 10px 0;
   position: relative;
   width: 100%;
-  min-width: 334px;
-  padding: 10px 0;
 }
 
   /* nav-brand */
@@ -71,6 +70,7 @@ html, body {
   background-size: cover;
   background-position: center center;
   color: var(--secondary);
+  min-width: 360px;
   padding: 150px 0;
 }
 
