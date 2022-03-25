@@ -22,6 +22,10 @@ html, body {
   position: relative;
 }
 
+h1{}
+h2{}
+h3{}
+
 /* header */
 .header {
   background-color: var(--primary);
@@ -81,3 +85,12 @@ html, body {
 .main p {
   text-align: center;
 }
+
+/* about */
+.abot{}
+  .about-item{}
+  .about-item img {
+    max-width: 100%;
+    display: block;
+  }
+  .about-comment {}
