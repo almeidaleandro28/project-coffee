@@ -22,9 +22,15 @@ html, body {
   position: relative;
 }
 
-h1{}
-h2{}
-h3{}
+h1{
+  font-size: 3rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+h3{
+  font-size: 2.0rem;
+}
 
 /* header */
 .header {
@@ -88,9 +94,43 @@ h3{}
 
 /* about */
 .abot{}
-  .about-item{}
+.about h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
+}
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .about-items {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .about-item{
+    flex: 1;
+  }
+
+  .about-item h3 {
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-style: italic;
+    padding: 5px 0 10px 0;
+    position: relative;
+    text-align: center;
+    top: -20px;
+    width: 220px;
+
+  }
   .about-item img {
     max-width: 100%;
     display: block;
   }
-  .about-comment {}
+  .about-comment {
+    max-width: 460px;
+    margin: 20px auto;
+  }
