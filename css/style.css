@@ -1,6 +1,8 @@
 :root{
   --primary: #252525;
   --secondary: #ffffff;
+  --gray-1: #e7edf8;
+  --gray-2: #d6d3c8;
 }
 
 * {
@@ -134,3 +136,8 @@ h3{
     max-width: 460px;
     margin: 20px auto;
   }
+
+/* -- product -- */
+.products {
+  background-color: var();
+}
