@@ -2,4 +2,5 @@
 - HTML
 - CSS
 
-[link project] (https://almeidaleandro28.github.io/project-coffee/)
+<a href="https://almeidaleandro28.github.io/project-coffee/" target="_blank">project link</a>
+
