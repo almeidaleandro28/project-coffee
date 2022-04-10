@@ -187,8 +187,25 @@ h3{
       display: block;
       max-width: 100%;
     }
-    .local-describe {}
-    .local-describe h2 {}
-    .local-describe p {}
-    .local-describe button {}
+    .local-describe {
+      width: 460px;
+      padding-left: 25px;
+    }
+    .local-describe h2 {
+      line-height: 1.4;
+      padding-bottom: 15px;
+      padding-top: 15px;
+
+    }
+    .local-describe p {
+      padding-bottom: 40px;
+      max-width: 320px;
+    }
+    .local-describe button {
+      background-color: var(--secondary);
+      border: 3px solid var(--primary);
+      padding: 10px 20px;
+      text-transform: uppercase;
+
+    }
 
