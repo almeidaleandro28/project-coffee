@@ -1,3 +1,6 @@
 # project-coffee
-using:
-HTML and CSS
+- HTML
+- CSS
+
+
+# <link project> (https://almeidaleandro28.github.io/project-coffee/)
