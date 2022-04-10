@@ -177,3 +177,18 @@ h3{
     width: 100px;
   }
 
+  /* local */
+  .local {}
+    .local-item {
+      display: flex;
+      flex-direction: row;
+    }
+    .local-item img {
+      display: block;
+      max-width: 100%;
+    }
+    .local-describe {}
+    .local-describe h2 {}
+    .local-describe p {}
+    .local-describe button {}
+
